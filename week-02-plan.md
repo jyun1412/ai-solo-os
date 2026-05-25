@@ -159,3 +159,26 @@ Day 8 focuses on:
 ## One-line Principle
 
 AI Solo OS의 Week 2 목표는 내부 구조를 더 만드는 것이 아니라, 외부에서 실제로 구독하고 받을 수 있는 실행 흐름을 만드는 것이다.
+
+
+
+## Checklist 공개 방식 결정 — Day 8
+
+90-Day AI Solo Founder Checklist는 PDF나 Gumroad 상품이 아니라 웹사이트 공개 페이지로 배포한다.
+
+구조:
+
+- checklist.md: GitHub에 보관하는 원본 파일
+- checklist.html: aisoloos.com에서 공개하는 웹페이지
+
+목표 공개 URL:
+
+https://aisoloos.com/checklist.html
+
+결정 이유:
+
+이 방식은 가볍고 수정하기 쉬우며, AI Solo OS 웹사이트와 Beehiiv 구독 흐름에 직접 연결할 수 있다.
+
+Notion Public Page는 선택지로 남겨두지만, Week 2의 기본 공개 방식은 아니다.
+
+PDF 디자인과 Gumroad 배포는 현재 제외한다.
