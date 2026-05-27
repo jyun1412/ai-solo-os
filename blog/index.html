@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>AI Solo OS Blog</title>
+  <meta name="description" content="AI Solo OS의 90일 Build in Public 기록, 블로그 글, 실행 로그를 모아둔 페이지입니다." />
+
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111827;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --accent: #38bdf8;
+      --border: #1f2937;
+      --white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+      background: radial-gradient(circle at top, #1e293b 0, #0f172a 45%, #020617 100%);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      width: min(960px, 92%);
+      margin: 0 auto;
+      padding: 48px 0 80px;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: center;
+      margin-bottom: 48px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .brand {
+      font-weight: 700;
+      color: var(--white);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .hero {
+      margin-bottom: 36px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      padding: 6px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      color: var(--accent);
+      font-size: 13px;
+      margin-bottom: 18px;
+      background: rgba(56, 189, 248, 0.08);
+    }
+
+    h1 {
+      font-size: clamp(34px, 6vw, 56px);
+      line-height: 1.1;
+      margin: 0 0 16px;
+      letter-spacing: -0.04em;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      color: var(--muted);
+      max-width: 720px;
+      margin: 0;
+    }
+
+    .post-list {
+      display: grid;
+      gap: 20px;
+    }
+
+    .post-card {
+      padding: 28px;
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      background: rgba(17, 24, 39, 0.78);
+      box-shadow: 0 18px 60px rgba(0, 0, 0, 0.22);
+    }
+
+    .post-meta {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .post-card h2 {
+      margin: 0 0 12px;
+      font-size: 26px;
+      letter-spacing: -0.02em;
+    }
+
+    .post-card p {
+      margin: 0 0 18px;
+      color: var(--muted);
+    }
+
+    .button {
+      display: inline-flex;
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: #020617;
+      font-weight: 700;
+    }
+
+    .cta {
+      margin-top: 40px;
+      padding: 26px;
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      border-radius: 22px;
+      background: rgba(56, 189, 248, 0.08);
+    }
+
+    footer {
+      margin-top: 48px;
+      color: var(--muted);
+      font-size: 14px;
+      text-align: center;
+    }
+
+    @media (max-width: 720px) {
+      .nav {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .post-card {
+        padding: 22px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <nav class="nav">
+      <a class="brand" href="https://aisoloos.com">AI Solo OS</a>
+      <div class="nav-links">
+        <a href="https://aisoloos.com">Home</a>
+        <a href="https://aisoloos.com/blog/">Blog</a>
+        <a href="https://aisoloos.com/checklist.html">Checklist</a>
+        <a href="https://aisoloos.beehiiv.com/">Newsletter</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="eyebrow">Build in Public Archive</div>
+      <h1>AI Solo OS Blog</h1>
+      <p class="subtitle">
+        AI Solo OS의 90일 공개 실험에서 나온 기준 글, 운영 기록, 회고, 콘텐츠 제작 과정을 모아둔 공간입니다.
+      </p>
+    </section>
+
+    <section class="post-list">
+      <article class="post-card">
+        <div class="post-meta">Day 10 · Week 2 · 2026년 5월 27일</div>
+        <h2>Notion HQ를 만들었지만 Google Sheets로 옮긴 이유</h2>
+        <p>
+          AI Solo OS Week 1에서 배운 가장 큰 교훈: 운영체제는 예쁜 대시보드가 아니라 매일 작동하는 시스템이어야 한다.
+        </p>
+        <a class="button" href="https://aisoloos.com/blog/notion-to-google-sheets.html">Read Post</a>
+      </article>
+
+      <article class="post-card">
+        <div class="post-meta">Day 3 · Week 1 · 2026년 5월 20일</div>
+        <h2>AI Solo OS를 시작한 이유: 무자본 1인 창업 90일 실험</h2>
+        <p>
+          AI Solo OS를 왜 시작했는지, 90일 동안 무엇을 만들고 공개할 것인지 정리한 첫 기준 글입니다.
+        </p>
+        <a class="button" href="https://aisoloos.com/blog/why-ai-solo-os.html">Read Post</a>
+      </article>
+    </section>
+
+    <section class="cta">
+      <h2>처음 따라온다면</h2>
+      <p>
+        AI Solo OS의 첫 7일 실행 흐름은 Day 1~7 체크리스트로 정리되어 있습니다. Day 8~90 업데이트는 뉴스레터로 이어서 공유합니다.
+      </p>
+      <p>
+        <a href="https://aisoloos.com/checklist.html">Day 1~7 체크리스트 보기</a> ·
+        <a href="https://aisoloos.beehiiv.com/">Day 8~90 업데이트 받기</a>
+      </p>
+    </section>
+
+    <footer>
+      <p>
+        AI Solo OS · 90-day build-in-public experiment ·
+        <a href="https://x.com/aisoloos">X</a>
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
