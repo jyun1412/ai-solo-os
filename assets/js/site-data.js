@@ -1,11 +1,11 @@
 window.AI_SOLO_OS_SITE = {
   hero: {
-    status: "Day 11 / 90 · Build in Public",
-    titleLine1: "AI로 혼자 만드는",
-    titleLine2: "90일 디지털 수익 시스템",
-    description:
-      "AI Solo OS는 1인이 AI 도구를 활용해 웹사이트, 뉴스레터, 콘텐츠, 운영 DB, 디지털 상품 후보를 만들어가는 90일 공개 실험입니다. Week 1에는 기반을 만들고, Week 2에는 Website → Checklist → Beehiiv → Welcome Email로 이어지는 공개 구독 흐름과 콘텐츠 운영 구조를 검증하고 있습니다."
-  },
+        title: "AI Solo OS",
+        subtitle: "1인 창업자를 위한 AI 운영체제 구축 90일 실험",
+        // 주 단위 범주형 레이블로 전환하여 운영 피로도 최적화
+        status: "Week 3 · Build in Public", 
+        description: "AI 도구와 정적 시스템을 결합하여 콘텐츠 파이프라인과 운영 DB를 자율 가동하는 1인 비즈니스 아키텍처를 검증합니다."
+   },
 
   cta: {
     checklistText:
